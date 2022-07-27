@@ -1,0 +1,225 @@
+    <div id="main_w" style="background: rgb(255, 255, 255)">
+      <div
+        class="br1"
+        style="background: radial-gradient(white, rgb(32, 78, 128))"
+      >
+        <img id="im" src="img/logo.png" alt="" width="100" />
+      </div>
+      <div id="tn_o">
+        <div id="op_nn" style="background: rgb(255, 255, 255)">Окно 3</div>
+        <select id="op_s" style="display: none">
+          <option value="3">3</option>
+        </select>
+      </div>
+      <div id="tn_pol0" style="text-align: center; display: block">
+        Пользователь: Петров А.В.
+      </div>
+      <div id="tn_pol">admin</div>
+      <div id="id_taln" style="display: none"></div>
+      <hr />
+      <div id="tn_n" style="background: rgb(255, 255, 255)">----</div>
+      <div
+        id="nazvanie_uslugi_z"
+        title="Показывает название услуги вызванного талона"
+        style="background: rgb(255, 255, 255)"
+      >
+        Услуга:
+      </div>
+      <div id="nazvanie_uslugi_d" style="background: rgb(255, 255, 255)"></div>
+      <div id="dop_inf1" style="background: rgb(255, 255, 255)"></div>
+      <hr />
+      <div
+        id="tn_w"
+        title="Показывает количество человек в опечереди к Вам"
+        style="background: rgb(255, 255, 255)"
+      >
+        Количество человек в очереди:<span
+          style="float: left; width: 100%; margin: -20 0 0 0"
+          >По записи : 0</span
+        ><span style="float: left; width: 100%; margin: -20 0 0 0"
+          >Живая очередь : 0</span
+        >
+      </div>
+      <hr />
+      <div id="tn_e" style="background: rgb(255, 255, 255)">
+        <div
+          id="tn_e_1"
+          title="Окончание обслуживания посетителя, с присваиванием ему статуса неявка (Потерянный).Статус означает что посетитель не пришел на прием"
+          style="display: none"
+        >
+          Неявка
+        </div>
+        <div
+          id="tn_e_2"
+          title="Временно отложить посетителя с впециальный список (Отложенный). Для его повторного вызова , откройте окно Список Отложенных и вызовите его снова."
+          style="display: none"
+        >
+          Отложить
+        </div>
+        <div
+          id="tn_e_3"
+          title="Окончание обслуживания посетителя, с присваиванием ему статуса Обслужен"
+          style="display: none"
+        >
+          Обслужен
+        </div>
+        <div
+          id="tn_e_1_t"
+          title="Окончание обслуживания посетителя, с присваиванием ему статуса неявка (Потерянный).Статус означает что посетитель не пришел на прием"
+          style="display: block"
+        >
+          Неявка
+        </div>
+        <div
+          id="tn_e_2_t"
+          title="Временно отложить посетителя с впециальный список (Отложенный). Для его повторного вызова , откройте окно Список Отложенных и вызовите его снова."
+          style="display: block"
+        >
+          Отложить
+        </div>
+        <div
+          id="tn_e_3_t"
+          title="Окончание обслуживания посетителя, с присваиванием ему статуса Обслужен"
+          style="display: block"
+        >
+          Обслужен
+        </div>
+        <div
+          id="tn_otk"
+          title="Отказ в обслуживании клиента с указанием причины"
+          style="visibility: hidden; display: none"
+        >
+          Отказ
+        </div>
+        <div
+          id="tn_otk_t"
+          title="Отказ в обслуживании клиента с указанием причины"
+          style="visibility: hidden; display: block"
+        >
+          Отказ
+        </div>
+        <div
+          id="tn_p"
+          title="Перевеод посетителя к другому оператору"
+          style="display: none"
+        >
+          Перевод
+        </div>
+        <div
+          id="tn_p_t"
+          title="Перевеод посетителя к другому оператору"
+          style="display: block"
+        >
+          Перевод
+        </div>
+        <div
+          id="tn_r"
+          title="Повтор вызова посетителя , если он не подошел к оператору с первого раза"
+          style="display: none"
+        >
+          Повтор вызова
+        </div>
+        <div
+          id="tn_r_t"
+          title="Повтор вызова посетителя , если он не подошел к оператору с первого раза"
+          style="display: block"
+        >
+          Повтор вызова
+        </div>
+        <div
+          id="tn_peren"
+          title="Перенос обслуживания клиента на попозже"
+          style="visibility: hidden; display: none"
+        >
+          Перенос
+        </div>
+        <div
+          id="tn_peren_t"
+          title="Перенос обслуживания клиента на попозже"
+          style="visibility: hidden; display: block"
+        >
+          Перенос
+        </div>
+      </div>
+      <div id="panel_perevoda">
+        <div id="pp_txt1">Укажите оператора на которого нужно перевести</div>
+        <div id="op_per">
+          <select name="" id="op_per_n"></select>
+        </div>
+        <div
+          id="pod_per"
+          title="Произвести перевод посетителя к выбранному оператору"
+        >
+          Перевести
+        </div>
+      </div>
+      <div id="panel_perevoda_i">1</div>
+
+      <div id="tip_vib">
+        <input
+          id="rb"
+          type="radio"
+          name="viz"
+          value="1"
+          checked=""
+        />Стандартный
+      </div>
+
+      <div
+        id="tn_s"
+        title="Вызывает следующего посетителя согласно выбранным потокам обслуживания и приоритетам"
+        style="display: block"
+      >
+        Следующий
+      </div>
+      <div
+        id="tn_s_t"
+        title="Вызывает следующего посетителя согласно выбранным потокам обслуживания и приоритетам"
+        style="display: none"
+      >
+        Следующий
+      </div>
+      <div
+        id="auto_c"
+        title="При выбранной опции вызов производится автоматически"
+        style="visibility: hidden"
+      >
+        <input id="ck1" type="checkbox" /> Автовызов
+      </div>
+      <div
+        id="tn_sw"
+        title="Открывает окно в котором можно выбрать для вызова посетителя из списка отложенных"
+        style="display: block"
+      >
+        Список Отложенных (0 чел.)
+      </div>
+      <div
+        id="tn_sw_t"
+        title="Открывает окно в котором можно выбрать для вызова посетителя из списка отложенных"
+        style="display: none"
+      >
+        Список Отложенных
+      </div>
+      <div
+        id="tn_so4"
+        title="Открывает окно в котором можно выбрать для вызова посетителя из списка очереди(Ожидающих)"
+        style="display: block"
+      >
+        Список Очереди (0/0 чел.)
+      </div>
+      <div
+        id="tn_so4_t"
+        title="Открывает окно в котором можно выбрать для вызова посетителя из списка очереди(Ожидающих)"
+        style="display: none"
+      >
+        Список Очереди
+      </div>
+
+      <div id="end50"></div>
+      <div id="end200"></div>
+      <div
+        class="br"
+        style="background: radial-gradient(white, rgb(32, 78, 128))"
+      ></div>
+    </div>
+
