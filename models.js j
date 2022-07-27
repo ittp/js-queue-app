@@ -1,0 +1,8 @@
+const queue = { 
+active: {},
+waiting: {},
+stats:{}
+}
+const view = { user, queue.wait, 
+const user = { lastname, firstname, middlename }
+
